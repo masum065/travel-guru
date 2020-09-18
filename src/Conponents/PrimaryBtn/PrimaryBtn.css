@@ -1,0 +1,22 @@
+.primary-btn {
+    background: #f9a51a;
+    border: none;
+    padding: 9px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 18px 0px;
+}
+
+.primary-btn:focus {
+    outline: none;
+}
+
+.primary-btn:active {
+    background: #e2910f;
+}
+
+.primary-btn svg {
+    position: relative;
+    top: 3px;
+    left: 6px;
+}

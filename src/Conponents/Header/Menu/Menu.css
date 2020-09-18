@@ -1,0 +1,26 @@
+.menu a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 19px 19px;
+    color: #fff;
+    display: inline-block;
+}
+
+.menu.black a {
+    color: #000;
+    font-weight: 500;
+}
+
+.menu {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #f9a51a;
+}

@@ -1,0 +1,27 @@
+#heroArea {
+    position: relative;
+    z-index: 1;
+}
+
+#heroArea::before {
+    content: '';
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.user-name {
+    color: #fff;
+    font-size: 17px;
+    margin: 30px 0;
+    font-weight: 900;
+}
+
+.user-name.dark {
+    color: #000;
+}

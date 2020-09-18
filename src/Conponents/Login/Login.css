@@ -1,0 +1,153 @@
+.login-form {
+    margin-top: 50px;
+}
+
+.login-form form {
+    padding: 30px 50px;
+    border-radius: 8px;
+    border: 1px solid #ababab;
+}
+
+.login-form form input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #c5c5c5;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0px 0 22px;
+    color: #000;
+    position: relative;
+}
+
+.login-form form input:focus {
+    outline: none;
+}
+
+.login-form form input::placeholder {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.login-form form input:active,
+.login-form form input:focus {
+    border-color: #f9a51a;
+}
+
+.login-form form input[type='checkbox'] {
+    width: 7%;
+    margin-right: 11px;
+    color: #000;
+}
+
+.login-form form p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.login-form form p span {
+    color: #f9a51a;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-form form h3 {
+    color: #000;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.horizontal-row {
+    margin: 40px 60px;
+    height: 1px;
+    width: 75%;
+    display: block;
+    background: #aaaaaa;
+    position: relative;
+}
+
+.horizontal-row span {
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 5px;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+
+.api-login button {
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.provider-login button {
+    background: none;
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    padding: 9px 3px;
+    color: #000;
+    border-radius: 50px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.provider-login button img {
+    max-width: 31px;
+    position: absolute;
+    left: 5px;
+    top: 5.5px;
+}
+
+.provider-login button:active,
+.provider-login button:focus {
+    outline: none;
+    border-color: #f9a51a;
+    color: #f9a51a;
+}
+
+.error-feed {
+    position: absolute;
+    width: 100%;
+    left: 15px;
+    bottom: 2px;
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+}
+
+.alert-border {
+    border-color: red !important;
+}
+
+
+.login-form form input[type="submit"] {
+    background: #f9a51a;
+    border: none;
+    padding: 9px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 18px 0px;
+}
+
+.login-form form input[type="submit"]:focus {
+    outline: none;
+}
+
+.login-form form input[type="submit"]:active {
+    background: #e2910f;
+}
+
+.errorlogin {
+    color: red;
+    font-size: 13px !important;
+    text-align: center !important;
+    padding: 0;
+    margin-top: -13px;
+    margin-left: 15px;
+}
