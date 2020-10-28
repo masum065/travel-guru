@@ -26,10 +26,7 @@ export const handleFAcebooksignIn = () => {
       return singedInUser;
     })
     .catch((error) => {
-      const errorCode = error.code;
-      const errorMessage = error.message;
-      const email = error.email;
-      const credential = error.credential;
+      console.log(error.message);
     });
 };
 

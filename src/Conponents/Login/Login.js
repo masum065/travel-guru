@@ -83,8 +83,6 @@ const Login = () => {
     }
   };
 
-  console.log(logedInUser.displayName);
-
   return (
     <>
       <Container>
@@ -180,7 +178,7 @@ const Login = () => {
                       )}
                     </Col>
                   )}
-                  {user.error && <p className='errorlogin'>{user.error}</p>}
+                  {/* {user.error && <p className='errorlogin'>{user.error}</p>} */}
                   {!newUser && (
                     <Col sm={6}>
                       <p>

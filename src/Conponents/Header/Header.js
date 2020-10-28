@@ -35,7 +35,7 @@ const Header = (props) => {
         <div className='d-flex justify-content-between'>
           <Menu className={props.className} />
           <span className='btn-right'>
-            {logedInUser.email ? (
+            {logedInUser ? (
               <h3 className={props.userClass}> {logedInUser.name} </h3>
             ) : (
               <Link to='/login'>
