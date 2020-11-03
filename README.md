@@ -17,4 +17,3 @@
 -   Netlify Hosting
 -   Googe Map API
 
-**MY RESUME:** [resume-Of-Masum_Billah](https://rb.gy/fyoa14)
